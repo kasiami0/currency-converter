@@ -1,0 +1,31 @@
+.form__label {
+    display: inline-block;
+    max-width: 150px;
+    width: 100%;
+    margin-right: 5px;
+    margin-left: 30px;
+}
+.form__field {
+    border: solid 1px blue;
+    border-radius: 5%;
+    padding: 7px 10px;
+    margin-right: 5px;
+    max-width: 200px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.form__button {
+    margin: 20px 0px 10px;
+    width: 100%;
+    background-color: dodgerblue;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5%;
+}
+.form__button:hover {
+background-color: hsl(195, 100%, 50%);
+}
+.form__button:active {
+    background-color: blue;
+}
