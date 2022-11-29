@@ -1,9 +1,20 @@
+.form__fieldset {
+    background-color: #e0ffff;
+    border: solid 1px blue;
+    border-radius: 5%;
+}
 .form__label {
     display: inline-block;
     max-width: 150px;
     width: 100%;
     margin-right: 5px;
     margin-left: 30px;
+}
+.form__legend {
+    background-color: dodgerblue;
+    color: white;
+    padding: 5px;;
+    font-weight: bold;
 }
 .form__field {
     border: solid 1px blue;

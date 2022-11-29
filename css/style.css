@@ -5,6 +5,6 @@ html {
     box-sizing: inherit;
 }
 .body {
-    background-color: #e0ffff;
+    background-image: url("../images/background.jpeg");
     font-family: 'Lato', sans-serif;
 }
