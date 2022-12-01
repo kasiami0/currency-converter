@@ -1,7 +1,7 @@
 {
-    const resultText = (amount, currency, result) => {
+    const setResultText = (text) => {
         const resultElement = document.querySelector(".js-result");
-        resultElement.innerText = `${amount.toFixed(2)} ${currency} = ${result.toFixed(2)} PLN`;
+        resultElement.innerText = text;
     };
 
     const calculateResult = (currency, amount) => {
@@ -32,7 +32,7 @@
         const currency = currencyElement.value;
         const result = calculateResult(currency, amount);
 
-        resultText(amount, currency, result);
+        setResultText(`${amount.toFixed(2)} ${currency} = ${result.toFixed(2)} PLN`);
     };
 
     const init = () => {
