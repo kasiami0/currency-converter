@@ -27,21 +27,27 @@
         <form class="form js-form">
             <fieldset class="form__fieldset">
                 <legend class="form__legend">Przelicz na PLN</legend>
-                <p><label><span class="form__label">Waluta:</span>
+                <p><label>
+                        <span class="form__label">Waluta:</span>
                         <select class="form__field js-currency" required>
                             <option value="EUR">Euro</option>
                             <option value="USD">Dolar amerykański</option>
                             <option value="CHF">Frank szwajcarski</option>
                             <option value="GBP">Funt brytyjski</option>
-                        </select></p>
-                <p><label><span class="form__label">*Kwota:</span><input class="form__field js-amount" type="number"
-                            step="0.01" min="1" required></label></p>
+                        </select>
+                    </label></p>
+                <p><label>
+                        <span class="form__label">*Kwota:</span>
+                        <input class="form__field js-amount" type="number" step="0.01" min="1" required>
+                    </label></p>
                 <footer>* - wymagane pola</footer>
             </fieldset>
             <button class="form__button">Przelicz</button>
         </form>
         <p class="container__result js-result">💸 💰 💸</p>
-        <footer class="container__footer">Krursy pochodzą ze strony nbp.pl z Tabeli nr 223/A/NBP/2022 z dnia 2022-11-18</footer>
+        <footer class="container__footer">
+            Krursy pochodzą ze strony nbp.pl z Tabeli nr 223/A/NBP/2022 z dnia 2022-11-18
+        </footer>
     </div>
 
 
